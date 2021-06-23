@@ -1,18 +1,19 @@
-var myCenter=new google.maps.LatLng(40.7065983,-74.0107104);
+var myCenter=new google.maps.LatLng(25.0332786,121.5494237);
+
     function initialize()
     {
         var mapProp = {
             center:myCenter,
             scrollwheel: false,
-            zoom:11,
-            mapTypeId:google.maps.MapTypeId.ROADMAP
+            zoom:17,
+            // mapTypeId:google.maps.MapTypeId.ROADMAP
         };
         var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
         var marker=new google.maps.Marker({
             position:myCenter,
             map: map,
         });
-	
+
 		var styles =  [
 			{
 				"stylers": [
@@ -70,14 +71,14 @@ var myCenter=new google.maps.LatLng(40.7065983,-74.0107104);
 			}
 		];
 
-		
-		
 
-		
-		
+
+
+
+
         map.setOptions({styles: styles});
         marker.setMap(map);
     }
 google.maps.event.addDomListener(window, 'load', initialize);
 
-	
+

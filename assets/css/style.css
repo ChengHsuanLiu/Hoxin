@@ -1433,7 +1433,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .main_menu nav > ul > li > a {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 54px;
   text-transform: uppercase;
   font-weight: 500;
