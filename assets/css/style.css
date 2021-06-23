@@ -5,14 +5,14 @@
     01. header css here
     02. slider area css here
     03. product section css here
-    04. banner section css here 
+    04. banner section css here
     05. blog area css here
     06. newsletter area css here
     07. footer area css here
     08. shop page css here
-    09. error page css heer 
+    09. error page css heer
     10. about page css here
-    11. blog page css here 
+    11. blog page css here
     12. blog details css here
     13. cart page css here
     14. checkout page css here
@@ -149,7 +149,7 @@ figure {
   margin: 0;
 }
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 .fix {
@@ -192,7 +192,7 @@ figure {
   margin: 0;
 }
 
-/*-- 
+/*--
     - Background color
 -----------------------------------------*/
 .bg-white {
@@ -238,10 +238,10 @@ figure {
   height: 100%;
 }
 
-/*-- 
+/*--
     - color
 -----------------------------------------*/
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 input:-moz-placeholder, textarea:-moz-placeholder {
@@ -264,8 +264,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-/*-- 
-    Scroll Up 
+/*--
+    Scroll Up
 -----------------------------------------*/
 #scrollUp {
   background: #79a206 none repeat scroll 0 0;
@@ -293,7 +293,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   animation-iteration-count: infinite;
 }
 
-/*-- 
+/*--
     - Main Wrapper
 -----------------------------------------*/
 .main-wrapper.header-transparent {
@@ -301,7 +301,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin: 0 !important;
 }
 
-/*-- 
+/*--
     - Section Padding
 -------------------------------------*/
 .section-ptb {
@@ -1020,16 +1020,16 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 300px;
 }
 @media only screen and (max-width: 767px) {
   .logo img {
-    max-width: 120px;
+    max-width: 200px;
   }
 }
 @media only screen and (max-width: 575px) {
   .logo img {
-    max-width: 99px;
+    max-width: 180px;
   }
 }
 
@@ -1332,8 +1332,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .header_account_area {
   display: flex;
   justify-content: center;
-  border-right: 1px solid #e1e1e1;
-  border-left: 1px solid #e1e1e1;
   padding: 45px 41px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3129,7 +3127,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .banner_fullwidth {
-  background: url(../img/bg/banner7.jpg);
+  background: url(../img/bg/banner17.jpg);
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -10827,3 +10825,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*privacy policy css end*/
 
 /*# sourceMappingURL=style.css.map */
+
+.white-text-shadow{
+  /*color: white !important;
+  text-shadow: 1px 1px 3px #000;*/
+}
