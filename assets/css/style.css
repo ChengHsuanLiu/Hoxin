@@ -3127,7 +3127,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .banner_fullwidth {
-  background: url(../img/bg/banner17.jpg);
+  background: url(../img/bg/bg3.jpg);
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4761,7 +4761,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .widgets_container h3 {
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: 31px;
+  margin-top: 24px;
+  margin-bottom: 20px;
   padding-bottom: 10px;
   text-transform: uppercase;
   font-weight: 500;
@@ -4822,7 +4823,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 500;
 }
 .contact_us > p:last-child {
-  margin-top: 50px;
+/*  margin-top: 50px;*/
   margin-bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -10829,4 +10830,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .white-text-shadow{
   /*color: white !important;
   text-shadow: 1px 1px 3px #000;*/
+}
+
+.about-main-video{
+  width: 100%;
+  max-width: 1100px;
+  display: block;
+  margin: 0 auto;
 }
